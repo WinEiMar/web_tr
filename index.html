@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>web layout</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">">
+    <style>
+        header{
+            width: 100%;
+            height: 200px;
+            border-radius: 2px solid black;
+        }
+        ul {
+            list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+li{
+    float: left;
+}
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: red;
+}
+
+
+        header img{
+            width: 100px;
+            height: 80px;
+            border-radius: 50%;
+        }
+    .body{
+        display: flex;
+    }
+    .section{
+        background-color: antiquewhite;
+        width: 30%;
+        height: 100vh;
+    }
+    .asid{
+        background-color: aquamarine;
+        width: 70%;
+        height: 100vh;
+        padding: 5px;
+    }
+    .asid h2{
+        text-align: center;
+    }
+    .boxes{
+        display: flex;
+    }
+    .box{
+        border: 2px solid black;
+        padding: 10px;
+
+    }
+    .box h3{
+        text-align: center;
+    }
+    .box button{
+        margin-left: 150px;
+    }
+    .footer{
+        background-color: bisque;
+        width: 100%;
+        height: 200px;
+        margin-top: 30px;
+        padding: 10px;
+    }
+
+
+        
+    </style>
+</head>
+<body>
+    <!-- header -->
+     <header>
+        <ul>
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#contact">Contact</a></li>
+           <li><a href="#about">About</a></li>
+        </ul>
+
+
+        <h1>web tidle</h1>
+        <img src="https://www.newsnationnow.com/wp-content/uploads/sites/108/2022/07/Cat.jpg?w=2560&h=1440&crop=1" alt="">
+     </header>
+    <div class="body">
+    <!-- section -->
+     <div class="section">
+        
+
+     </div>
+    <!-- asid -->
+     <div class="asid">
+        <h2>This is h2</h2>
+        <p>Lorem ipsum dolor sit amet cissimos officiis dolores eveniet hic sequi velit sed possimus, voluptatibus pariatur. Ipsa, dolore veritatis? Ipsa veniam doloremque deserunt perferendis?</p>
+        <div class="boxes">
+            <div class="box">
+                <h3>this is box</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adiotam necessitatibus obcaecati. Quia quaerat beatae quisquam pariatur, cum praesentium expedita inventore corrupti adipisci. Quia, ab?</p>
+                <button>click !</button>
+            </div>
+            <div class="box">
+                <h3>this is box</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam ipsa amet asperiores optio tenetur excepturi voluptate saepe piente voluptatum at provident reiciendis a maiores!</p>
+                <button>click !</button>
+            </div>
+        </div>
+     </div>
+    </div>
+    <div class="footer">
+        <h3>footer 1</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit voluptate nesciunt ipsam blanditiis, explicabo neque nulla, eligendi asperiores nobis fugit re esse consequatur! Deleniti.</p>
+        <h3>footer 1</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit voluptate nesciunt ipsam blanditiis, explicabo neque nulla, eligendi asperiores nobis fugit re esse consequatur! Deleniti.</p>
+
+    </div>
+</body>
+</html>
